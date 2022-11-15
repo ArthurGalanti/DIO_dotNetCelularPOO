@@ -52,7 +52,7 @@ namespace DesafioPOO.Models
             Console.WriteLine($"Desinstalando aplicativo no {this.GetType().Name}");
             AplicativosInstalados.Remove(AplicativosInstalados.Find(listaNome => listaNome == nomeApp));
             Thread.Sleep(2000);
-            Console.WriteLine($"Aplicativo {nomeApp} desinstalado!!!");
+            Console.WriteLine($"Aplicativo \"{nomeApp}\" desinstalado!!!");
         }
 
         public void ListarAplicativos()

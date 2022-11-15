@@ -12,7 +12,7 @@ namespace DesafioPOO.Models
             AplicativosInstalados.Add(nomeApp);
             Console.WriteLine($"Instalando aplicativo no Iphone...");
             Thread.Sleep(2000);
-            Console.WriteLine($"Aplicativo {nomeApp} instalado!");
+            Console.WriteLine($"Aplicativo \"{nomeApp}\" instalado!");
         }
     }
 }

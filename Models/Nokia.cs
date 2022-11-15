@@ -11,7 +11,7 @@ namespace DesafioPOO.Models
             AplicativosInstalados.Add(nomeApp);
             Console.WriteLine($"Instalando aplicativo no Nokia...");
             Thread.Sleep(2000);
-            Console.WriteLine($"Aplicativo {nomeApp} instalado!");
+            Console.WriteLine($"Aplicativo \"{nomeApp}\" instalado!");
         }
 
     }
